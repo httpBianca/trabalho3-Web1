@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}  
+body{
+    margin: 0;
+    text-align: center; 
+    font-family: Georgia; 
+}
+header {
+    background-color: #87CEEB;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  /* Barra de navegação*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00BFFF;
+    font-size: 20px; 
+    font-style: italic;
+  }
+  li {
+    float: left;
+  } 
+  li a, .barra {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover, .barraLi:hover, .barra{
+    background-color: #111;
+  }
+  li.barraLi{
+    display: inline-block;
+  }
+  .barraSuspensa{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  .barraSuspensa a{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  }
+  .barraSuspensa a:hover {
+    background-color: #f1f1f1;
+  }
+  .barraLi:hover .barraSuspensa{
+    display: block;
+  }
+ 
+  /*Informações sobre o ar condicionado*/
+  .quadrado{
+    border: 2px solid black;
+    height: 730px;
+    width: 500px;
+    text-align: center;
+    margin: 60px;
+  }
+  .q1{
+    float: left;
+    background-color: #32CD32;
+  }
+  .q2{
+    float: left;
+    background-color: #FF4500;
+  }
+  .q3{
+    float: right;
+    background-color: #32CD32;
+  }
+  .q4{
+    float: left;
+    background-color: #FF8C00;
+  }
+  .q5{
+    float: left;
+    background-color: #FF4500;
+  }
+  .q6{
+    float: right;
+    background-color: #32CD32;
+  }
+  .inf{
+    margin: 50px;
+  }
+  .footer {
+    background-color: #87CEEB;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    float: right;
+    border-top: 10px solid #4169E1;
+    font-size: 20px; 
+    font-style: italic;
+  }
+.imagemPrincipal{
+  height: 600px;
+  margin: 5px;
+}
+#imagemPredio{
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.p1{
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+}
+.header2{
+  border-top: 10px solid #00BFFF;
+  border-bottom: 10px solid #00BFFF;
+  background-color: #87CEEB;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
